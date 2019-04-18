@@ -1,0 +1,50 @@
+body {
+  box-sizing :border-box;
+/* -webkit-clip-path: circle(50% at 50% 50%);
+clip-path: circle(50% at 50% 50%);
+position: absolute;
+top: -50%;  */
+}
+
+.header_my_profile {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 100px
+}
+
+.my_profile {
+    display: flex;
+}
+
+.my_profile img {
+    width: 10%;
+}
+
+.card {
+    width: 450px;
+}
+
+.card-img-top {
+    width:80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.blocks {
+    display: flex;   
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.blocks img {
+    width: 10%;
+}
+
+.block-text {
+    display: flex;
+    align-items: center;
+}
